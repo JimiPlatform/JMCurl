@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/JimiPlatform"
-  s.license      = { :type => "Apache License 2.0", :file => "LICENSE" }
+  s.license      = { :type => "Apache License 2.0" }
   s.author       = "Eafy"
   s.platform     = :ios, "8.0"
   s.requires_arc = true
