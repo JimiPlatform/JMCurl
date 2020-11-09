@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1868022436E28400A799E8 /* JMCurl.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1868002436E28400A799E8 /* JMCurl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB1868132436E29800A799E8 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1868082436E29800A799E8 /* curl.h */; };
+		AB1868142436E29800A799E8 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1868092436E29800A799E8 /* curlver.h */; };
+		AB1868152436E29800A799E8 /* FTPCurlDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB18680A2436E29800A799E8 /* FTPCurlDownloadManager.m */; };
+		AB1868162436E29800A799E8 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = AB18680B2436E29800A799E8 /* easy.h */; };
+		AB1868172436E29800A799E8 /* FTPCurlDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB18680C2436E29800A799E8 /* FTPCurlDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB1868182436E29800A799E8 /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = AB18680D2436E29800A799E8 /* mprintf.h */; };
+		AB1868192436E29800A799E8 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = AB18680E2436E29800A799E8 /* multi.h */; };
+		AB18681A2436E29800A799E8 /* system.h in Headers */ = {isa = PBXBuildFile; fileRef = AB18680F2436E29800A799E8 /* system.h */; };
+		AB18681B2436E29800A799E8 /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1868102436E29800A799E8 /* stdcheaders.h */; };
+		AB18681C2436E29800A799E8 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1868112436E29800A799E8 /* libcurl.a */; };
+		AB18681D2436E29900A799E8 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1868122436E29800A799E8 /* typecheck-gcc.h */; };
+		AB186861243C13E100A799E8 /* FTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB18685F243C13E100A799E8 /* FTPManager.m */; };
+		AB186862243C13E100A799E8 /* FTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB186860243C13E100A799E8 /* FTPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB32C69D24CE6C26005E8194 /* FTPCurlManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB32C69B24CE6C26005E8194 /* FTPCurlManager.cpp */; };
+		AB32C69E24CE6C26005E8194 /* FTPCurlManager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AB32C69C24CE6C26005E8194 /* FTPCurlManager.hpp */; };
+		AB32C6A224CE6F00005E8194 /* FtpOperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB32C6A024CE6F00005E8194 /* FtpOperate.cpp */; };
+		AB32C6A324CE6F00005E8194 /* FtpOperate.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AB32C6A124CE6F00005E8194 /* FtpOperate.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB1867FD2436E28400A799E8 /* JMCurl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMCurl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1868002436E28400A799E8 /* JMCurl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMCurl.h; sourceTree = "<group>"; };
+		AB1868012436E28400A799E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1868082436E29800A799E8 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		AB1868092436E29800A799E8 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		AB18680A2436E29800A799E8 /* FTPCurlDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPCurlDownloadManager.m; sourceTree = "<group>"; };
+		AB18680B2436E29800A799E8 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		AB18680C2436E29800A799E8 /* FTPCurlDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPCurlDownloadManager.h; sourceTree = "<group>"; };
+		AB18680D2436E29800A799E8 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		AB18680E2436E29800A799E8 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		AB18680F2436E29800A799E8 /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		AB1868102436E29800A799E8 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		AB1868112436E29800A799E8 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		AB1868122436E29800A799E8 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		AB18685F243C13E100A799E8 /* FTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPManager.m; sourceTree = "<group>"; };
+		AB186860243C13E100A799E8 /* FTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPManager.h; sourceTree = "<group>"; };
+		AB32C69B24CE6C26005E8194 /* FTPCurlManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FTPCurlManager.cpp; sourceTree = "<group>"; };
+		AB32C69C24CE6C26005E8194 /* FTPCurlManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FTPCurlManager.hpp; sourceTree = "<group>"; };
+		AB32C6A024CE6F00005E8194 /* FtpOperate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FtpOperate.cpp; sourceTree = "<group>"; };
+		AB32C6A124CE6F00005E8194 /* FtpOperate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FtpOperate.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1867FA2436E28400A799E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB18681C2436E29800A799E8 /* libcurl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1867F32436E28400A799E8 = {
+			isa = PBXGroup;
+			children = (
+				AB1867FF2436E28400A799E8 /* JMCurl */,
+				AB1867FE2436E28400A799E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1867FE2436E28400A799E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1867FD2436E28400A799E8 /* JMCurl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1867FF2436E28400A799E8 /* JMCurl */ = {
+			isa = PBXGroup;
+			children = (
+				AB186860243C13E100A799E8 /* FTPManager.h */,
+				AB18685F243C13E100A799E8 /* FTPManager.m */,
+				AB1868002436E28400A799E8 /* JMCurl.h */,
+				AB1868082436E29800A799E8 /* curl.h */,
+				AB1868092436E29800A799E8 /* curlver.h */,
+				AB18680B2436E29800A799E8 /* easy.h */,
+				AB18680C2436E29800A799E8 /* FTPCurlDownloadManager.h */,
+				AB18680A2436E29800A799E8 /* FTPCurlDownloadManager.m */,
+				AB1868112436E29800A799E8 /* libcurl.a */,
+				AB18680D2436E29800A799E8 /* mprintf.h */,
+				AB18680E2436E29800A799E8 /* multi.h */,
+				AB1868102436E29800A799E8 /* stdcheaders.h */,
+				AB18680F2436E29800A799E8 /* system.h */,
+				AB1868122436E29800A799E8 /* typecheck-gcc.h */,
+				AB1868012436E28400A799E8 /* Info.plist */,
+				AB32C69C24CE6C26005E8194 /* FTPCurlManager.hpp */,
+				AB32C69B24CE6C26005E8194 /* FTPCurlManager.cpp */,
+				AB32C6A124CE6F00005E8194 /* FtpOperate.hpp */,
+				AB32C6A024CE6F00005E8194 /* FtpOperate.cpp */,
+			);
+			path = JMCurl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB1867F82436E28400A799E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB32C6A324CE6F00005E8194 /* FtpOperate.hpp in Headers */,
+				AB1868142436E29800A799E8 /* curlver.h in Headers */,
+				AB1868172436E29800A799E8 /* FTPCurlDownloadManager.h in Headers */,
+				AB186862243C13E100A799E8 /* FTPManager.h in Headers */,
+				AB18681D2436E29900A799E8 /* typecheck-gcc.h in Headers */,
+				AB1868192436E29800A799E8 /* multi.h in Headers */,
+				AB18681B2436E29800A799E8 /* stdcheaders.h in Headers */,
+				AB1868132436E29800A799E8 /* curl.h in Headers */,
+				AB18681A2436E29800A799E8 /* system.h in Headers */,
+				AB1868162436E29800A799E8 /* easy.h in Headers */,
+				AB1868022436E28400A799E8 /* JMCurl.h in Headers */,
+				AB1868182436E29800A799E8 /* mprintf.h in Headers */,
+				AB32C69E24CE6C26005E8194 /* FTPCurlManager.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB1867FC2436E28400A799E8 /* JMCurl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1868052436E28400A799E8 /* Build configuration list for PBXNativeTarget "JMCurl" */;
+			buildPhases = (
+				AB1867F82436E28400A799E8 /* Headers */,
+				AB1867F92436E28400A799E8 /* Sources */,
+				AB1867FA2436E28400A799E8 /* Frameworks */,
+				AB1867FB2436E28400A799E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMCurl;
+			productName = JMCurl;
+			productReference = AB1867FD2436E28400A799E8 /* JMCurl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1867F42436E28400A799E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = jimi01;
+				TargetAttributes = {
+					AB1867FC2436E28400A799E8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AB1867F72436E28400A799E8 /* Build configuration list for PBXProject "JMCurl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1867F32436E28400A799E8;
+			productRefGroup = AB1867FE2436E28400A799E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1867FC2436E28400A799E8 /* JMCurl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1867FB2436E28400A799E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1867F92436E28400A799E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB186861243C13E100A799E8 /* FTPManager.m in Sources */,
+				AB32C6A224CE6F00005E8194 /* FtpOperate.cpp in Sources */,
+				AB32C69D24CE6C26005E8194 /* FTPCurlManager.cpp in Sources */,
+				AB1868152436E29800A799E8 /* FTPCurlDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB1868032436E28400A799E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB1868042436E28400A799E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB1868062436E28400A799E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMCurl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JMCurl",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clannad.-SmallAppEngineImage.JMCurl";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB1868072436E28400A799E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMCurl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JMCurl",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clannad.-SmallAppEngineImage.JMCurl";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1867F72436E28400A799E8 /* Build configuration list for PBXProject "JMCurl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1868032436E28400A799E8 /* Debug */,
+				AB1868042436E28400A799E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1868052436E28400A799E8 /* Build configuration list for PBXNativeTarget "JMCurl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1868062436E28400A799E8 /* Debug */,
+				AB1868072436E28400A799E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1867F42436E28400A799E8 /* Project object */;
+}
